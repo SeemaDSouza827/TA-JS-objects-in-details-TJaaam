@@ -102,7 +102,7 @@ class Quiz {
                     if (this.activeIndex !== (this.questions.length -1)) {
                         this.nextQuestion();
                     } else {
-                        alert(`You have Finshed the quiz! Chcek your reselt.`);
+                        alert(`You have Finshed the quiz! Chcek your result!`);
                     }
                     activeQuestion.getCorrectAnswer();
                     if(activeQuestion.isCorrect(input.value)) {
